@@ -13,8 +13,8 @@ date_lst = interest_rates_file.DATE.to_list()
 interest_rate_list = interest_rates_file.INTDSRUSM193N.to_list()
 
 interest_rate_chart_table = pandas.DataFrame(
-    {'Date': date_lst,
-     'Interest Rate': interest_rate_list,
+    {'Interest Rate': interest_rate_list,
+     'Date': date_lst
     })
 
 
