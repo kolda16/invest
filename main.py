@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas
 import pandas_datareader.data as web
+from datetime import datetime
+import numpy as np
+import matplotlib.pyplot as plt
+import os
+import requests
 
 
 interest_rates_file = pandas.read_csv("int_rates.csv", index_col=None)
