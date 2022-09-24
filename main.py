@@ -13,7 +13,7 @@ interest_rate_chart_table = pandas.DataFrame(
     })
 
 
-
+st.dataframe(interest_rate_chart_table)
 st.line_chart(interest_rate_chart_table)
 
 
