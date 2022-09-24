@@ -17,8 +17,12 @@ interest_rate_chart_table = pandas.DataFrame(
      'Date': date_lst
     })
 
+df = pandas.DataFrame(
+    {'Interest Rate': [1, 3, 4, 3, 2],
+     'Date': [2, 3, 1, 4, 3]
+    })
 
 st.dataframe(interest_rate_chart_table)
-st.line_chart(interest_rate_chart_table)
+st.line_chart(df)
 
 
