@@ -3,7 +3,7 @@ import pandas
 import pandas_datareader.data as web
 
 
-interest_rates_file = pandas.read_csv("/Users/Matej/Desktop/Stock/int_rates.csv", index_col=None)
+interest_rates_file = pandas.read_csv("int_rates.csv", index_col=None)
 date_lst = interest_rates_file.DATE.to_list()
 interest_rate_list = interest_rates_file.INTDSRUSM193N.to_list()
 
