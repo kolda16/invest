@@ -15,6 +15,7 @@ interest_rate_list = interest_rates_file.INTDSRUSM193N.to_list()
 interest_rate_chart_table_new = list()
 for date in date_lst:
     date_chart = date[0:4]
+    date_chart = int(date_chart)
     interest_rate_chart_table_new.append(date_chart)
 
 
