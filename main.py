@@ -26,10 +26,8 @@ end_date = end_year+"-12-01"
 
 #after ir_bu script finishes, the code takes the output into this script
 if __name__ == "__main__":
-    try:
-        from ir_bu import increase_table
-        st.dataframe(increase_table)
-    except:
-        Matej = 1
+    from ir_bu import increase_table
+    st.dataframe(increase_table)
+    
 
 
