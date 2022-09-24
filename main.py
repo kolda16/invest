@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas
+import pandas_datareader.data as web
 
 
 interest_rates_file = pandas.read_csv("/Users/Matej/Desktop/Stock/int_rates.csv", index_col=None)
